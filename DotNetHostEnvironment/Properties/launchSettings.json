@@ -1,0 +1,24 @@
+{
+  "profiles": {
+    "Local": {
+      "commandName": "Project",
+      "executablePath": "C:/Users/Kuei/Documents/Projects/Test/DotNetHostEnvironment/DotNetHostEnvironment/bin/Debug/net5.0/DotNetHostEnvironment.dll",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Local"
+      }
+    },
+    "Test": {
+      "commandName": "Project",
+      "executablePath": "C:/Users/Kuei/Documents/Projects/Test/DotNetHostEnvironment/DotNetHostEnvironment/bin/Debug/net5.0/DotNetHostEnvironment.dll",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Test"
+      }
+    },
+    "Production": {
+      "commandName": "Executable",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Production"
+      }
+    }
+  }
+}
